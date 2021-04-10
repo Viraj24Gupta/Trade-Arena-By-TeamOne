@@ -378,16 +378,3 @@ def logout():
     # forget any user_id
     session.clear()
     return redirect(url_for("login"))
-
-
-
-
-
-
-
-
-
-
-
-
-
